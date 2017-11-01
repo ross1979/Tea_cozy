@@ -1,0 +1,118 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+.container {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.title_bar {
+  background-color: black;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+.logo {
+  padding-left: 10px;
+  height: 50px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+a {
+  color: seashell;
+  cursor: auto;
+  text-decoration: underline;
+}
+.content{
+  padding-top: 69px;
+  margin: auto;
+  width: 1200px;
+}
+div{
+  display: block;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+  }
+.mission {
+  height: 700px;
+  background-image: url(./bk_images/img-mission-background.jpg);
+  padding-top: 70px;
+}
+.mission_text {
+  background-color: black;
+  width: 100%;
+  margin: 300px 0;
+}
+.teas{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+.varieties{
+
+}
+.tea{
+  display:inline-block;
+  padding: 5px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+.tea span{
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url(./bk_images/img-locations-background.jpg);
+  vertical-align: middle;
+
+}
+.shop {
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  margin: 5px 20px;
+  padding: 10px;
+  flex-basis: 300px;
+  height: 300px;
+
+}
+.contact {
+  height: 200px;
+}
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
+}
